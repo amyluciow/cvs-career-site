@@ -7601,7 +7601,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 
 @media only screen and (max-width: 750px) {
-        #indy-dc-hero .hero-content.hero-full-image {
+        #career-emilia-hero .hero-content.hero-full-image {
     min-height: 625px;
     }
     
