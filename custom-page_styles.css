@@ -7690,10 +7690,8 @@ ul.quick-facts li::before, ul.nine-cities li::before {
         text-transform: uppercase;
         color: #000000;
         line-height: 1;
-        font-family: "helveticaneuemedium"; }
         .single-blog-area .single-blog-thumbnail .post-date a span {
           display: block;
-          font-family: "Open Sans", sans-serif;
           font-size: 11px;
           color: #878787; }
   .single-blog-area .single-blog-content .line {
