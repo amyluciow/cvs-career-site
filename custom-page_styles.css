@@ -7826,4 +7826,7 @@ img {
   background-repeat: no-repeat; }
 
 .bg-transparent {
-  background-color: transparent; }	      
+  background-color: transparent; }
+	      
+@import url(css/bootstrap.min.css);
+	      
