@@ -7668,6 +7668,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 
 /* Blog Content Area CSS */
+/* :: Import Fonts */
 @import url(css/bootstrap.min.css);
 
 .single-blog-area {
