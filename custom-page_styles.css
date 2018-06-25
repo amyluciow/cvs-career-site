@@ -7664,3 +7664,15 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #career-emilia-hero .hero-content.hero-full-image .mobile-hero {
     display: none;
 }
+
+/*Blog*/
+// [class*="col-"] {
+//     padding-top: 1rem;
+//     padding-bottom: 1rem;
+//     background-color: rgba(86,61,124,.15);
+//     border: 1px solid rgba(86,61,124,.2);
+// }
+
+body {
+	margin:20px;
+}
