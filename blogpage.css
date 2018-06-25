@@ -5397,36 +5397,7 @@ BeTheFirst page: Orgs block
     #main .module-block.image-and-text-block > .content .inner-text.bg-trans {
         min-height: 220px;
     }
-    /* Featured Slider ipad portrait override */
-    .featured-content-slides ol.flex-control-nav {
-        bottom: 5px;
-    }
-    .featured-content-slides .item-list ul.slides > li .inner-wrapper .main-text {
-        /*width: 36.639344%;*/
-        padding-bottom: 5px;
-    }
-    .featured-content-slides .item-list .slides .flex-active-slide .inner-padding p {
-        float: left;
-        clear: both;
-    }
-    body.page-node-5146 .featured-content-slides .item-list .slides .flex-active-slide .inner-padding p {
-        float: none;
-    }
-    body.page-node-5146 .highlighted-wrapper .featured-content-slides .slides .side-block .inner-padding a {
-        color: #fff;
-        text-decoration: underline;
-    }
-    body.page-node-5146 .highlighted-wrapper .featured-content-slides .slides .side-block .inner-padding a:hover {
-        text-decoration: none;
-    }
-    #page-slideshow-wrapper #page-slideshow .flexslider h2 {
-        font-size: 44px;
-        line-height: 46px;
-    }
-    #page-slideshow-wrapper #page-slideshow .flexslider p {
-        font-size: 22px;
-        line-height: 28px;
-    }
+   
    
     
 
