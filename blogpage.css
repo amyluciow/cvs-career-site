@@ -7384,37 +7384,7 @@ body.page-node-95591 #main-wrapper #main-main-wrapper.detailed-page #main #main-
 }
 
 
-/* Temp remove replaced with main.js 1237
-body.page-node-95591 #main #main-side-column {
-    padding: 0 1.5873% 32px;
-    background-color: transparent !important;
-}
 
-body.page-node-95591 #main #main-side-column > .inner{
-    padding-left: 0;
-    padding-top: 0px !important;
-    padding-right: 0;
-} */
-
-body.page-node-95591 #main #main-side-column .block.column-block .content {
-    height: auto;
-}
-
-body.page-node-95591 #main #main-side-column .block.column-block.thought-leadership-areas-of-focus .content {
-    padding-bottom: 18px;
-    color: #ffffff;
-}
-
-body.page-node-95591 #main #main-side-column .block.column-block.quick-links {
-    background-color: #fff;
-    color: #000;
-}
-
-body.page-node-95591 #main #main-side-column .block.column-block.quick-links .content a {
-    color: #cb0000 !important;
-    text-decoration: underline;
-    line-height: 2.5em;
-}
 
 
 
