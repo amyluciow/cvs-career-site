@@ -7437,61 +7437,7 @@ body.page-node-95591 #main #main-side-column .block ul.tweets-pulled-listing li 
 }
 
 
-/* article views for the stay informed page */
 
-body.page-node-95591 .view-featured-stories-and-updates .view-filters, body.node-type-poll .view-featured-stories-and-updates .view-filters, body.page-node-95591 .tl-article-list {
-    display: none;
-}
-
-body.page-node-95591 .view-featured-stories-and-updates .stories-item-list ul li, body.node-type-poll .view-featured-stories-and-updates .stories-item-list ul li {
-    padding-right: 0;
-}
-
-body.page-node-95591 .view-featured-stories-and-updates .stories-item-list ul li, body.node-type-poll .view-featured-stories-and-updates .stories-item-list ul li {
-    display: none;
-    list-style: none;
-    float: none;
-    margin: 0 0 24px;
-    width: auto;
-    height: auto;
-    background: #fff;
-    padding-right: 16px;
-    padding-left: 30px;
-}
-
-body.node-type-poll .view-featured-stories-and-updates .stories-item-list ul li {
-    padding-left: 0;
-    display: block;
-}
-
-body.page-node-95591 .view-featured-stories-and-updates .stories-item-list ul li:nth-child(1), body.page-node-95591 .view-featured-stories-and-updates .stories-item-list ul li:nth-child(2), body.page-node-95591 .view-featured-stories-and-updates .stories-item-list ul li:nth-child(3), body.node-type-poll .view-featured-stories-and-updates .stories-item-list ul li:nth-child(1), body.node-type-poll .view-featured-stories-and-updates .stories-item-list ul li:nth-child(2), body.node-type-poll .view-featured-stories-and-updates .stories-item-list ul li:nth-child(3) {
-    display: block !important;
-}
-
-body.page-node-95591 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail, body.node-type-poll .view-featured-stories-and-updates .stories-item-list ul li .thumbnail {
-    float: left;
-    width: 25%;
-    margin-right: 20px;
-    position: relative;
-}
-
-body.page-node-95591 .view-featured-stories-and-updates .stories-item-list ul li .inner-text, body.node-type-poll .view-featured-stories-and-updates .stories-item-list ul li .inner-text {
-    padding: 13px 15px;
-    overflow: hidden;
-    font-size: 14px;
-    line-height: 1.5em;
-    color: #000000;
-    margin-left: 32px;
-    margin-right: 19px;
-}
-
-body.page-node-95591 #main #content-section h3, body.node-type-poll #main #content-section h3 {
-    margin: 0px 0 0.5em;
-    font-size: 16px;
-}
-
-body.page-node-95591 #main-wrapper #main-main-wrapper.detailed-page #main #main-content > .inner .item-list {
-    display: none;
 }@charset "UTF-8";
 /* CSS Document */
 
