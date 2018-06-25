@@ -5427,44 +5427,7 @@ BeTheFirst page: Orgs block
         font-size: 22px;
         line-height: 28px;
     }
-    /* top nav */
-    #header-wrapper #header .header-nav ul.menu li {
-        padding-left: 18px;
-    }
-    #header-wrapper #header .header-nav ul.menu li.first {
-        padding: 0 0 0 3.28893%;
-    }
-    #header-wrapper #header .header-nav ul.menu li a {
-        font-size: 15px;
-    }
-    .view-article ul.posts-list li {
-        height: 575px;
-    }
-    .view-featured-stories-and-updates .stories-item-list ul li {
-        height: 480px;
-    }
-    .view-perspecetive .perspective-item-list ul li {
-        height: 520px;
-    }
-    .view-health-in-action-blog .posts-item-list ul li {
-        height: 500px;
-    }
-    .leadership-item-list ul li {
-        min-height: 580px;
-    }
-    .view-media-gallery .view-content .item-list ul li {
-        height: 456px;
-    }
-    .view-media-gallery .view-content .item-list ul li .thumbnail {
-        min-height: 240px;
-    }
-    .view-media-gallery .view-content .item-list ul li .thumbnail .img-restricter {
-        margin-top: 25%;
-        min-height: 131px;
-    }
-    .featured-content-slides .item-list ul.slides > li .inner-wrapper {
-        height: 300px;
-    }
+   
     
 
    
