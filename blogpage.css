@@ -5217,36 +5217,7 @@ div[class*='field-name-field-video'] iframe, div[class*="field-name-field-resear
 }
 
 @media only screen and (max-width: 1023px) {
-    /*
-    *  CVS At A Glance tablet adjustments
-    */
-    .view-cvs-health-at-a-glance-corporate-facts .item-list > ul {
-        justify-content: center;
-    }
-    .view-cvs-health-at-a-glance-corporate-facts .item-list > ul > li {
-        width: 44%;
-    }
-    .view-cvs-health-at-a-glance-corporate-facts .item-list > ul > li:nth-of-type(6n+1), 
-    .view-cvs-health-at-a-glance-corporate-facts .item-list > ul > li:nth-of-type(6n+4) {
-        background-color: #a7ce39;
-    }
-
-    .view-cvs-health-at-a-glance-corporate-facts .item-list > ul > li:nth-of-type(6n+2), 
-    .view-cvs-health-at-a-glance-corporate-facts .item-list > ul > li:nth-of-type(6n+5) {
-        background-color: #37baab;
-    }
-
-    .view-cvs-health-at-a-glance-corporate-facts .item-list > ul > li:nth-of-type(6n+3), 
-    .view-cvs-health-at-a-glance-corporate-facts .item-list > ul > li:nth-of-type(6n+6) {
-        background-color: #646464;
-    }
-    .featured-content-slides .item-list ul.slides > li .inner-wrapper .side-block img {
-        min-height: 0;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    
+   
  
  
    
