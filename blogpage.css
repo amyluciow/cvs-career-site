@@ -5331,53 +5331,7 @@ div[class*='field-name-field-video'] iframe, div[class*="field-name-field-resear
 }
 
 @media only screen and (max-width: 970px) {
-    /* cvs health at a glance */
-    .view-cvs-health-at-a-glance-corporate-facts .item-list li .summary .content h3 {
-        font-size: 72px;
-    }
-    /*leadership page*/
-    .leadership-item-list ul li {
-        min-height: 590px;
-    }
-    /* Community Crew */
-    .cc-page .featured-content-slides .item-list ul.slides > li .inner-wrapper .main-text {
-        float: right;
-    }
-    .cc-page .featured-content-slides .item-list ul.slides > li .inner-wrapper .side-block {
-        float: left;
-    }
-    .cc-page .featured-content-slides .item-list ul.slides {
-        background: #e9e9e9;
-        padding-bottom: 0;
-    }
-    .cc-page p, .cc-page li {
-        clear: both;
-    }
-    p.cc-footer {
-        margin-top: 0px;
-        margin-left: 25px;
-        width: 50%;
-    }
-    #header-wrapper #header .cc-site .mobile-search-button, #header-wrapper #header .cc-site .mobile-search-button {
-        display: none;
-    }
-    .cc-site #site-slogan {
-        font-size: 18px;
-        margin-top: 16px;
-    }
-    .cc-page h1#page-title {
-        font-size: 27px;
-    }
-    body.page-node-7311 .view-featuresection .view-content .content {
-        min-height: 580px;
-    }
-    body.page-node-7311 .view-featuresection.three-columns-layout .view-content .content {
-        min-height: 670px;
-    }
-    body.page-node-7311 .view-featuresection.three-columns-layout.short .view-content .content {
-        min-height: 335px;
-    }
-  
+ 
    
    
   
