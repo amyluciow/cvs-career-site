@@ -5377,32 +5377,9 @@ div[class*='field-name-field-video'] iframe, div[class*="field-name-field-resear
     body.page-node-7311 .view-featuresection.three-columns-layout.short .view-content .content {
         min-height: 335px;
     }
-    /*
-BeTheFirst page: Orgs block
-*/
-    body.page-social-responsibility-be-the-first .block.bethefirst-footer .content p {
-        display: block;
-        float: none;
-        margin: 0 0 24px 0;
-    }
-    body.page-social-responsibility-be-the-first .block.bethefirst-footer .content a.cvslogo {
-        position: static;
-    }
-}
-
-@media only screen and (max-width: 820px) {
-    #main .module-block.text-block {
-        height: 250px;
-    }
-    #main .module-block.image-and-text-block > .content .inner-text.bg-trans {
-        min-height: 220px;
-    }
+  
    
    
-    
-
-   
-    
   
   
 }@charset "UTF-8";
