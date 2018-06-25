@@ -5465,29 +5465,7 @@ BeTheFirst page: Orgs block
     .featured-content-slides .item-list ul.slides > li .inner-wrapper {
         height: 300px;
     }
-    /* Thought Leadership */
-    body.page-node-5156 .view-featured-stories-and-updates .stories-item-list ul li, body.page-node-40026 .view-featured-stories-and-updates .stories-item-list ul li, body.page-node-40196 .view-featured-stories-and-updates .stories-item-list ul li, body.page-node-40221 .view-featured-stories-and-updates .stories-item-list ul li, body.page-node-40311 .view-featured-stories-and-updates .stories-item-list ul li, body.page-node-39621 .view-featured-stories-and-updates .stories-item-list ul li {
-        padding-left: 20px;
-    }
-    body.page-node-5156 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail, body.page-node-40026 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail, body.page-node-40196 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail, body.page-node-40221 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail, body.page-node-40311 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail, body.page-node-39621 .view-featured-stories-and-updates .stories-item-list ul li .thumbnail {
-        float: none;
-        width: 95%;
-    }
-    body .view-featured-stories-and-updates .stories-item-list ul li .flaglabel {
-        margin-top: 10px;
-    }
-    body.page-node-5156 .view-featured-stories-and-updates .stories-item-list ul li .inner-text, body.page-node-40026 .view-featured-stories-and-updates .stories-item-list ul li .inner-text, body.page-node-40196 .view-featured-stories-and-updates .stories-item-list ul li .inner-text, body.page-node-40221 .view-featured-stories-and-updates .stories-item-list ul li .inner-text, body.page-node-40311 .view-featured-stories-and-updates .stories-item-list ul li .inner-text, body.page-node-39621 .view-featured-stories-and-updates .stories-item-list ul li .inner-text {
-        padding: 0;
-        margin-left: 0;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    .view-be-the-first-header .views-field-field-sub-text {
-        float: left;
-        margin-left: 4%;
-        width: 100%;
-    }
+    
 
    
     
