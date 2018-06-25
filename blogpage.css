@@ -5310,27 +5310,7 @@ div[class*='field-name-field-video'] iframe, div[class*="field-name-field-resear
     #main .module-block.image-and-text-block > .content .inner-text.bg-trans {
         min-height: 180px;
     }
-    /* Thought Leadership */
-    body.page-node-5156 .view-featured-stories-and-updates .view-filters h4 {
-        width: inherit;
-    }
-    body.page-node-20356 #highlighted-wrapper-grey .view-featured-stories-and-updates .views-exposed-widget {
-        width: 290px;
-    }
-    .posts-item-list .thumbnail .video-icon {
-        width: 50px;
-        height: 50px;
-        left: 10.5263%;
-        bottom: 10px;
-        top: auto !important;
-    }
-    .posts-item-list .thumbnail .video-icon img {
-        width: 50px !important;
-        height: 50px !important;
-    }
-}
-
-@media only screen and (max-width: 970px) {
+ 
  
    
    
