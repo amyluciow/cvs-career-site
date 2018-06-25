@@ -7417,26 +7417,6 @@ body.page-node-95591 #main #main-side-column .block.column-block.quick-links .co
 }
 
 
-/* stay informed Health Influentials sidebar */
-
-body.page-node-95591 #main #main-side-column .block.column-block.health-infl {
-    background-color: #b8e3eb;
-}
-
-body.page-node-95591 #main #main-side-column .block.column-block.health-infl h2 {
-    border: none;
-}
-
-body.page-node-95591 #main #main-side-column .block.column-block.health-infl .content {
-    height: 400px;
-    color: #000000;
-}
-
-body.page-node-95591 #main #main-side-column .block ul.tweets-pulled-listing li a {
-    color: #cb0000 !important;
-}
-
-
 
 }@charset "UTF-8";
 /* CSS Document */
