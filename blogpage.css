@@ -4946,57 +4946,7 @@ body.node-type-cvs-health-perspective #footer .quicklinks .content ul li {
     padding-top: 0;
 }
 
-/* Poll Sidebar Tweaks */
 
-#main-side-column .block-nodeblock h2 {
-    font-size: 18px;
-    display: none;
-    margin: 0 0 24px 0 !important;
-}
-
-#main-side-column .block-nodeblock h3 {
-    font-size: 18px;
-    margin: 0 0 24px 0 !important;
-    font-weight: normal; 
-}
-
-#main-side-column .block-nodeblock .poll {
-    padding: 0px;
-    background-color: transparent;
-}
-
-#main-side-column .block-nodeblock .poll .poll-option-container {
-    margin-bottom: 20px;
-}
-
-#main-side-column .block-nodeblock .poll .poll-option-container .text{
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-
-#main-side-column .block-nodeblock .bar {
-    padding-right: 10px;
-}
-
-#main-side-column .block-nodeblock .bar .foreground{
-    background-color: #B8E3EB;
-}
-
-#main-side-column .block-nodeblock .percent {
-    display: none;
-}
-
-#main-side-column .block-nodeblock .bar.poll-bar-empty {
-    padding-right: 0px;
-    height: 0;
-}
-
-#main-side-column .block-nodeblock .poll .total {
-    display: none;
-}
-#main-side-column .block-nodeblock {
-    padding-bottom: 30px !important;
-}
 
 
 
