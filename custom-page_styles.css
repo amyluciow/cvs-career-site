@@ -7665,4 +7665,46 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     display: none;
 }
 
+/* Blog Cards */
 
+.view-featuresection .field-content .content {
+    min-height: 0;
+}
+    
+.view-featuresection {
+    width:100%;
+    float: none;
+}
+
+.region-content-additional .block-views {
+    -webkit-column-break-inside: avoid; /* Chrome, Safari */
+    page-break-inside: avoid;           /* Theoretically FF 20+ */
+    break-inside: avoid-column;         /* IE 11 */
+    display:table;
+    margin-right: 20px
+}
+    
+.field-content img {
+        width:100%;
+}
+    
+@media screen and (min-width: 800px) {
+    .region-content-additional {
+        column-count:2; 
+    }
+    
+    .region-content-additional {
+     padding-bottom:2em;  
+    -moz-column-gap: 15px;
+    -webkit-column-gap: 15px;
+    column-gap: 15px;
+    -moz-column-fill: initial;
+    -webkit-column-fill: initial;
+    column-fill: initial;
+    }   
+        
+    .region-content-additional .block-views {
+        margin-right: 0px;
+    }
+}
+    
