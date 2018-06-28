@@ -7680,7 +7680,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
       
 @media screen and (min-width: 800px) {
     ul.posts-list {
-        column-count:2; 
+        column-count:3; 
     }
 }
     
