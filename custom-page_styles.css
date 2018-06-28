@@ -7683,4 +7683,8 @@ ul.quick-facts li::before, ul.nine-cities li::before {
         column-count: 3; 
     }
 }
+
+ul.posts-list img {
+    width: 100%;
+}
     
