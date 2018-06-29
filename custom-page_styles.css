@@ -7718,6 +7718,7 @@ ul.posts-list img {
     padding: 0 1em !important
 }
 
-#blogmil.white_bg {
-    padding: 0 1em !important
+#blogmil.container {
+    align-items: center;
+  justify-content: center;
 }
