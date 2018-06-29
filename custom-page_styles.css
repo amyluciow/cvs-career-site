@@ -7688,3 +7688,27 @@ ul.posts-list img {
     width: 100%;
 }
     
+/* Blog Military */
+
+#blogmil.text-callout {
+    background: #c00;
+}
+
+@media only screen and (min-width: 750px) {
+    #blogmil.text-callout .icon {
+    width: 54px !important;
+    height:73px !important;
+    }
+    
+}
+
+#blogmil.text-callout .icon {
+    width: 27px;
+    height: 37px;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1673_pharm_icon.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: sub;
+    margin: 0 5px;
+}
