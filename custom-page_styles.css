@@ -7692,6 +7692,7 @@ ul.posts-list img {
 
 #blogmil.text-callout {
     background: #b8e3eb;
+	font-color: #000;
 }
 
 @media only screen and (min-width: 750px) {
