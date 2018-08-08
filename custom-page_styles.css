@@ -7714,6 +7714,30 @@ ul.posts-list img {
     margin: 0 5px;
 }
 
+/* Blog Top */
+
 #topredblog.text-callout {
 	background: #c00;
+}
+
+#blogfeatured .lite-blue_bg {
+background: #b8e3eb;
+}
+
+#blogfeatured .item-1 {
+padding: 0 !important;
+}
+
+#blogfeatured .item-2 {
+padding: 0 !important;
+flex: 1;
+}
+
+@media only screen and (max-width: 750px) {
+#blogfeatured .item-2 {
+order: 2;
+}
+
+#blogfeatured .content-wrapper {
+padding: 1em 2em !important;
 }
