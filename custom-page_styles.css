@@ -7802,3 +7802,8 @@ padding: 1em 2em !important;
 			-ms-object-fit: cover;
 			object-fit: cover;
 		}	
+
+	#blogfeatured .quote_bg .content-wrapper {	
+	background: rgba(0,0,0,.75);
+	padding: 60px 70px;
+	}
