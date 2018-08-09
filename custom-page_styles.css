@@ -7811,3 +7811,9 @@ padding: 1em 2em !important;
 	#blogfeatured .quote_bg .content-wrapper {
         padding: 2em 2em !important;
     }
+
+	@media only screen and (max-width: 750px) {
+     #blogfeatured .content-wrapper {
+          padding: 1em 2em !important;
+     }   
+}
