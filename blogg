@@ -1,0 +1,523 @@
+/*! CSS testing for blog */
+article {
+  display: block;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+img {
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+img {
+  vertical-align: middle;
+}
+a,
+a:visited {
+  color: #ed1c24;
+  text-decoration: none;
+  font-family: "antenna-bold", "antenna-regular", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+}
+a:hover,
+a:visited:hover {
+  color: #d00810;
+}
+h3,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "antenna-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+h3 {
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+}
+h6 {
+  font-size: 25px;
+  text-align: center;
+}
+h6:after {
+  content: " ";
+  background: #ed1c24;
+  display: block;
+  width: 80px;
+  height: 4px;
+  margin: 12px auto;
+  text-align: center;
+}
+p {
+  font-size: 16px;
+  line-height: 28px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  background: url(https://www.nestlepurinacareers.com/library/images/bullet.png)
+    no-repeat 0 5px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+img {
+  width: 100%;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+@media print {
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    color: #ed1c24;
+    text-decoration: none;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h3 {
+    page-break-after: avoid;
+  }
+}
+h3 {
+  margin-bottom: 40px;
+}
+.main {
+  background: #fff;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    -webkit-filter: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+  a,
+  a:visited {
+    color: #444 !important;
+    text-decoration: underline;
+  }
+  a:after,
+  a:visited:after {
+    content: " (" attr(href) ")";
+  }
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/*! CSS Used from: https://www.nestlepurinacareers.com/css/blog.css */
+.blog .main {
+  padding-top: 0;
+}
+.blog .main {
+  margin-top: 0;
+  padding-bottom: 115px;
+}
+.blog .main ul {
+  margin-top: 15px;
+}
+.blog h6 {
+  margin-bottom: 50px;
+}
+.search-blog-wrap {
+  width: 100%;
+  max-width: 590px;
+  height: 62px;
+  margin: 0 auto 95px auto;
+  position: relative;
+  z-index: 999;
+}
+@media only screen and (min-width: 650px) {
+  .search-blog-wrap {
+    margin-bottom: 45px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .search-blog-wrap {
+    max-width: 500px;
+    margin-bottom: 95px;
+    top: -31px;
+    cursor: pointer;
+  }
+}
+.search-blog-wrap .tags-toggle-wrap {
+  background: #ac0d14
+    url(https://www.nestlepurinacareers.com/library/images/arrow-white-down@2x.png)
+    no-repeat 97% 19px;
+  background-size: 16px 9px;
+  border: 7px solid #ed1c24;
+  padding: 0 35px 0 17px;
+}
+@media only screen and (min-width: 650px) {
+  .search-blog-wrap .tags-toggle-wrap {
+    -webkit-transform: translateY(-31px);
+    -ms-transform: translateY(-31px);
+    transform: translateY(-31px);
+  }
+}
+@media only screen and (min-width: 960px) {
+  .search-blog-wrap .tags-toggle-wrap {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.search-blog-wrap .tags-toggle-wrap p {
+  color: #fff;
+  margin: 0;
+  font-family: "antenna-bold", "antenna-regular", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 48px;
+}
+.search-blog-wrap .tags-toggle-wrap p a {
+  color: #fff;
+}
+.search-blog-wrap .tags-toggle-wrap .toggle {
+  width: 100%;
+  max-width: 500px;
+  background: #ac0d14;
+  display: none;
+}
+.search-blog-wrap .tags-toggle-wrap ul {
+  margin-top: 0;
+  padding-bottom: 15px;
+}
+.search-blog-wrap .tags-toggle-wrap ul li {
+  background: none;
+  margin: 0 0 5px 0;
+  padding: 0 0 5px 0;
+}
+.search-blog-wrap .tags-toggle-wrap ul li a {
+  color: #fff;
+}
+@media only screen and (min-width: 960px) {
+  .search-blog-wrap .tags-toggle-wrap ul li a {
+    -webkit-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+  }
+  .search-blog-wrap .tags-toggle-wrap ul li a:hover {
+    border-bottom: 1px solid #fff;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .blogFeed {
+    width: 95%;
+    max-width: 1100px;
+    margin: 50px auto 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .blogFeed {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+.blogFeed__article {
+  padding-bottom: 35px;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #ebe9e4;
+}
+@media only screen and (min-width: 650px) {
+  .blogFeed__article {
+    width: 90%;
+    margin: 0 auto 50px auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .blogFeed__article {
+    width: 48%;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .blogFeed__article {
+    width: 31.3333333333%;
+    margin: 0 1% 50px 1%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .blogFeed__article:hover {
+    -webkit-box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.27);
+    box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.27);
+    border-bottom: 3px solid #ffffff;
+  }
+}
+.blogFeed a {
+  color: #4a4542;
+  height: 100%;
+  font-family: "antenna-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: block;
+}
+@media only screen and (min-width: 960px) {
+  .blogFeed a {
+    padding-bottom: 35px;
+  }
+}
+.blogFeed__articleTitle {
+  margin: 10px 0 0 0;
+  font-family: "antenna-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: left;
+}
+.blogFeed__category {
+  color: #ed1c24;
+  margin: 0;
+  font-family: "antenna-bold", "antenna-regular", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  display: block;
+}
+.blogFeed__intro {
+  padding: 10px;
+}
+@media only screen and (min-width: 650px) {
+  .blogFeed__intro {
+    padding: 10px 0;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .blogFeed__intro {
+    padding: 15px;
+  }
+}
+.featuredPosts {
+  background: #f5f1e5;
+  padding: 80px 0 0 0;
+}
+@media only screen and (min-width: 650px) {
+  .featuredPosts {
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .featuredPosts {
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .featuredPosts {
+    padding-bottom: 110px;
+  }
+}
+.featuredPosts__article {
+  background: #fff;
+  margin-bottom: 0;
+  padding-bottom: 35px;
+  border-color: #fff;
+}
+@media only screen and (min-width: 650px) {
+  .featuredPosts__article {
+    margin: 0 auto 35px auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .featuredPosts__article {
+    width: 32%;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .featuredPosts__article {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 650px) {
+  .featuredPosts__intro {
+    padding: 15px;
+  }
+}
+.featuredPosts a {
+  padding-bottom: 0;
+}
+.pagination {
+  width: 100%;
+}
+.pagination ul {
+  text-align: center;
+  width: 100%;
+}
+.pagination ul li {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: none;
+  padding: 5px;
+}
+.pagination ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.pagination ul li.active {
+  background: #ed1c24;
+}
+.pagination ul li.active a {
+  color: #fff;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "antenna-bold";
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot");
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot#iefix")
+      format("embedded-opentype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.woff")
+      format("woff"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.ttf")
+      format("truetype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.svg#AntennaBold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "antenna-bold";
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot");
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot#iefix")
+      format("embedded-opentype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.woff")
+      format("woff"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.ttf")
+      format("truetype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.svg#AntennaBold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "antenna-bold";
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot");
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.woff")
+      format("woff"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.ttf")
+      format("truetype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.svg#AntennaBold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "antenna-regular";
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot");
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot#iefix")
+      format("embedded-opentype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.woff")
+      format("woff"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.ttf")
+      format("truetype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.svg#AntennaRegular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "antenna-regular";
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot");
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot#iefix")
+      format("embedded-opentype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.woff")
+      format("woff"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.ttf")
+      format("truetype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.svg#AntennaRegular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "antenna-regular";
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot");
+  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.woff")
+      format("woff"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.ttf")
+      format("truetype"),
+    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.svg#AntennaRegular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
